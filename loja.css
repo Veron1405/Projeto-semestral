@@ -1,0 +1,110 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+   
+}
+body {
+    background-color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 330px;
+
+}
+
+.img {
+    width: 600px;
+    z-index: 0;
+}
+
+@font-face {
+    font-family: 'Alegreya-bold';
+    src: url(Fontes/AlegreyaSC-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Alegreya-medium';
+    src: url(Fontes/AlegreyaSC-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-bold';
+    src: url(Fontes/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-medium';
+    src: url(Fontes/Roboto-Medium.ttf);
+}
+
+.descricao,
+.descricao2 {
+    position: relative;
+    font: 400 60px 'Alegreya-medium', sans-serif;
+    color: #ffffff;
+    top: -40px;
+}
+
+.e1 {
+    font: 700 50px 'Alegreya-medium', sans-serif;
+}
+
+.box {
+    background-color: #ffffff;
+    width: 100%;
+    height: 170px;
+    color: #000000;
+    margin-top: -100px;
+    z-index: 99;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    color: #000000;
+    font: 600 50px 'Alegreya-medium', sans-serif;
+}
+.icone7 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 350px;
+    top: 66px;
+
+}
+.icone8 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 740px;
+    top: 65px;
+}
+.icone9 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 990px;
+    top: 67px;
+}
+.icone10 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1395px;
+    top: 66px;
+}
